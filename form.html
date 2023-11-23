@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Mayflower Lookup</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	</head>
+	<body>
+		<div class="container">
+			<h1>Mayflower Username/Plate Database Search</h1>
+			<form action="/form-results" method="POST">
+				<div class="form-group">
+					<label for="username">Roblox Username</label>
+					<input type="text" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Enter Roblox Username" name="user_name" >
+				</div>
+				<div class="form-group">
+					<label for="licenseplate">License Plate</label>
+					<input type="text" class="form-control" id="licenseplate" aria-describedby="emailHelp" placeholder="Enter Mayflower License Plate" name="license_plate" >
+				</div>
+				<div class="form-group">
+				<h4 id="text1">Please ONLY enter a License Plate or a Username. It will default to Username if both are entered.</h4>
+				</div>
+				<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+	</body>
+</html>
